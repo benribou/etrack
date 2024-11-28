@@ -24,7 +24,7 @@ const Navbar = () => {
                         e <span className='text-accent'>.Track</span>
                     </div>
                     <div className='md:flex hidden'>
-                        <Link href={""} className='btn'>Mes budgets</Link>
+                        <Link href={"/budgets"} className='btn'>Mes budgets</Link>
                         <Link href={""} className='btn mx-4'>Tableau de bord</Link>
                         <Link href={""} className='btn'>Mes transactions</Link>
                     </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='md:hidden flex mt-2 justify-center'>
-                        <Link href={""} className='btn btn-sm'>Mes budgets</Link>
+                        <Link href={"/budgets"} className='btn btn-sm'>Mes budgets</Link>
                         <Link href={""} className='btn mx-4 btn-sm'>Tableau de bord</Link>
                         <Link href={""} className='btn btn-sm'>Mes transactions</Link>
                 </div>

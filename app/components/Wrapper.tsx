@@ -1,7 +1,19 @@
-import React from 'react'
+type WrapperProps = {
+    children : React.ReactNode
+}
 
-const Wrapper = () => {
+import React from 'react'
+import Navbar from './Navbar'
+
+const Wrapper = ({children} : WrapperProps) => {
     return (
-        <div>p</div>
+        <div>
+            <Navbar/>
+            <div className='px-5 md:px-[10%] mt-10 mb-10'>
+                {children}
+            </div>
+        </div>
     )
 }
+
+export default Wrapper
